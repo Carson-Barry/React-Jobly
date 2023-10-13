@@ -1,0 +1,20 @@
+.Home {
+    text-align: center;
+}
+.Home-button {
+    background-color: white;
+    margin: 0.25rem;
+    color: darkblue;
+    padding: 0.5rem;
+    border: 0.15rem solid darkblue;
+    border-radius: 0.4rem;
+    text-decoration: none;
+}
+.Home-button:hover {
+    background-color: darkblue;
+    color: white;
+}
+.Home-description {
+    margin-bottom: 2rem;
+    color: grey;
+}
