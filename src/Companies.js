@@ -29,7 +29,7 @@ const Companies = () => {
             ) : (
                 <>
                     <div className="Companies-searchbox">
-                        <TextEntry textClass="Companies-searchbox-text" updateText={handleChange} textType="text" textValue={searchTerm} placeholderText="Search for a company by name..."/>
+                        <TextEntry textClass="Companies-searchbox-text" updateText={handleChange} textType="text" textValue={searchTerm} placeholderText="Search for a company by name..." name="searchbox"/>
                     </div>
                     <CompanyList companyData={companyData}/>
                 </>
